@@ -1,0 +1,357 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 186,
+      "width": 365
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "style": {
+                "fontFamily": "sans-serif",
+                "fontSize": 12
+              },
+              "text": "New Patient"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Label_0"
+            },
+            "position": {
+              "basis": "",
+              "grow": 1,
+              "shrink": 0
+            },
+            "props": {
+              "style": {
+                "color": "#4747FF",
+                "fontFamily": "sans-serif",
+                "fontSize": 14
+              },
+              "text": "14.15% High then last month"
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "",
+          "grow": 1
+        },
+        "props": {
+          "alignItems": "center",
+          "justify": "space-around",
+          "style": {
+            "marginBottom": "10px",
+            "marginTop": "10px",
+            "overflow": "visible",
+            "paddingLeft": "5px",
+            "paddingRight": 0
+          },
+          "wrap": "wrap"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "TimeSeriesChart"
+            },
+            "position": {
+              "basis": "400px"
+            },
+            "props": {
+              "plots": [
+                {
+                  "axes": [],
+                  "markers": [],
+                  "relativeWeight": 1,
+                  "trends": [
+                    {
+                      "axis": "",
+                      "baselines": [],
+                      "breakLine": true,
+                      "columns": [],
+                      "interpolation": "curveLinear",
+                      "radius": 2,
+                      "series": "Boiler",
+                      "stack": true,
+                      "type": "bar",
+                      "visible": true
+                    }
+                  ]
+                }
+              ],
+              "series": [
+                {
+                  "data": [
+                    {
+                      "Pressure": 12,
+                      "Temperature": 52,
+                      "time": 1560469431423
+                    },
+                    {
+                      "Pressure": 42,
+                      "Temperature": 18,
+                      "time": 1560469432423
+                    },
+                    {
+                      "Pressure": 81,
+                      "Temperature": 26,
+                      "time": 1560469433423
+                    },
+                    {
+                      "Pressure": 11,
+                      "Temperature": 63,
+                      "time": 1560469434423
+                    },
+                    {
+                      "Pressure": 23,
+                      "Temperature": 65,
+                      "time": 1560469435423
+                    },
+                    {
+                      "Pressure": 43,
+                      "Temperature": 12,
+                      "time": 1560469436423
+                    },
+                    {
+                      "Pressure": 71,
+                      "Temperature": 61,
+                      "time": 1560469437423
+                    },
+                    {
+                      "Pressure": 89,
+                      "Temperature": 60,
+                      "time": 1560469438423
+                    },
+                    {
+                      "Pressure": 66,
+                      "Temperature": 58,
+                      "time": 1560469439423
+                    },
+                    {
+                      "Pressure": 33,
+                      "Temperature": 1,
+                      "time": 1560469440423
+                    }
+                  ],
+                  "name": "Boiler"
+                }
+              ]
+            },
+            "type": "ia.chart.timeseries"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_0"
+        },
+        "position": {
+          "basis": "",
+          "grow": 1,
+          "shrink": 0
+        },
+        "props": {
+          "alignContent": "center",
+          "alignItems": "center",
+          "style": {
+            "marginBottom": "10px"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "text": "Overall"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Folder1/labelofCard"
+                  },
+                  "text": "78.51%"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer"
+            },
+            "position": {
+              "basis": ""
+            },
+            "props": {
+              "alignItems": "center",
+              "direction": "column",
+              "style": {
+                "overflow": "visible"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "text": "Monthly"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Folder1/labelofCard"
+                  },
+                  "text": "17.39%"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_0"
+            },
+            "position": {
+              "basis": ""
+            },
+            "props": {
+              "alignItems": "center",
+              "direction": "column",
+              "style": {
+                "borderLeft": "Solid",
+                "overflow": "visible",
+                "paddingLeft": 25
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "text": "Day"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Label_0"
+                },
+                "position": {
+                  "basis": "50px"
+                },
+                "props": {
+                  "style": {
+                    "classes": "Folder1/labelofCard"
+                  },
+                  "text": "7.12%"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "FlexContainer_1"
+            },
+            "position": {
+              "basis": ""
+            },
+            "props": {
+              "alignItems": "flex-start",
+              "direction": "column",
+              "style": {
+                "borderLeft": "Solid",
+                "overflow": "visible",
+                "paddingLeft": 25
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer_1"
+        },
+        "position": {
+          "basis": "",
+          "grow": 1
+        },
+        "props": {
+          "justify": "space-between",
+          "style": {
+            "margin": "10px",
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "backgroundColor": "#2A004E",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 15,
+        "borderTopLeftRadius": 15,
+        "borderTopRightRadius": 15,
+        "margin": "10px"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

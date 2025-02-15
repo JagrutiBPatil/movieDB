@@ -1,0 +1,206 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "FlexRepeater"
+        },
+        "position": {
+          "basis": "",
+          "grow": 1
+        },
+        "props": {
+          "elementStyle": {
+            "classes": "flexElement"
+          },
+          "instances": [
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+                "rate": 6.8,
+                "title": "Gladiator II"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//x7NPbBlrvFRJrpinBSRlMOOUWom.jpg",
+                "rate": 7.7,
+                "title": "Sonic the Hedgehog 3"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//1sQA7lfcF9yUyoLYC0e6Zo3jmxE.jpg",
+                "rate": 7.129,
+                "title": "Your Fault"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//nHhjqeJcaQKOBCd21c1kV2DK5gm.jpg",
+                "rate": 7.451,
+                "title": "Mufasa: The Lion King"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//aosm8NMQ3UyoBVpSxyimorCQykC.jpg",
+                "rate": 6.8,
+                "title": "Venom: The Last Dance"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//hE9SAMyMSUGAPsHUGdyl6irv11v.jpg",
+                "rate": 6.6,
+                "title": "The Lord of the Rings: The War of the Rohirrim"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//2E1x1qcHqGZcYuYi4PzVZjzg8IV.jpg",
+                "rate": 7.348,
+                "title": "Wicked"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
+                "rate": 7.031,
+                "title": "Red One"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//m0SbwFNCa9epW1X60deLqTHiP7x.jpg",
+                "rate": 6.984,
+                "title": "Moana 2"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//cRTctVlwvMdXVsaYbX5qfkittDP.jpg",
+                "rate": 6.1,
+                "title": "Werewolves"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//9knPvD6GLtl1w4pamRomyQKHXyj.jpg",
+                "rate": 6.265,
+                "title": "Elevation"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//1y3TG8N8zwwMxqh0qzdyDs3IyCq.jpg",
+                "rate": 6.6,
+                "title": "Dirty Angels"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//sjMN7DRi4sGiledsmllEw5HJjPy.jpg",
+                "rate": 6.959,
+                "title": "Carry-On"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//lqoMzCcZYEFK729d6qzt349fB4o.jpg",
+                "rate": 7.1,
+                "title": "The Substance"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+                "rate": 7.9,
+                "title": "My Fault"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//8pwdnL3pEISIN1EGmwZzU6hpNVk.jpg",
+                "rate": 5.7,
+                "title": "Ferry 2"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
+                "rate": 6.835,
+                "title": "Nosferatu"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//2MeQG5Vq8rUnRAa463BZe5GNhVk.jpg",
+                "rate": 5.865,
+                "title": "Absolution"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+                "rate": 7.7,
+                "title": "Deadpool \u0026 Wolverine"
+              },
+              "viewPath": "New Folder/card3"
+            },
+            {
+              "params": {
+                "imgPath": "https://image.tmdb.org/t/p/w500//myS41ZUmFvslkT8LeD2irAKxyrf.jpg",
+                "rate": 5.939,
+                "title": "The Price of Money: A Largo Winch Adventure"
+              },
+              "viewPath": "New Folder/card3"
+            }
+          ],
+          "path": "New Folder/card3",
+          "wrap": "wrap"
+        },
+        "type": "ia.display.flex-repeater"
+      }
+    ],
+    "events": {
+      "system": {
+        "onStartup": {
+          "config": {
+            "script": "\t# API URL and Headers\n\turl \u003d \"https://api.themoviedb.org/3/movie/popular?language\u003den-US\u0026page\u003d1\"\n\theaders \u003d {\n\t    \"accept\": \"application/json\",\n\t    \"Authorization\": \"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTcyMTU2ZDQ3YjllM2U0M2RhMjA0MDRhMDQwYzNhOCIsIm5iZiI6MTczNjIyMzM0My44MjksInN1YiI6IjY3N2NhYTZmZDEwMmU3NzZmNTc0ODhiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nwAHnyYb8Ej1UCswTkltuNKZsCWWeknfHz_6Y0oi2es\"\n\t}\n\t\n\t# Create an HTTP client\n\thttp_client \u003d system.net.httpClient()\n\tresponse \u003d http_client.get(url, headers\u003dheaders)\n\t\n\t# Decode the JSON response\n\tresult \u003d system.util.jsonDecode(response.getText())\n\tmovies \u003d result.get(\"results\", [])\n\t\n\t# Get reference to the Flex Repeater\n\tflex_repeater \u003d self.getChild(\"FlexRepeater\")\n\t\n\t# Create instances list dynamically\n\tinstances \u003d []\n\tfor movie in movies:\n\t    instance \u003d {\n\t        \"viewPath\": \"New Folder/card3\",  # The path to your embedded view\n\t        \"params\": {\n\t            \"title\": movie.get(\"title\", \"Unknown Title\"),\n\t            \"imgPath\": \"https://image.tmdb.org/t/p/w500/\" + movie.get(\"poster_path\", \"\"),\n\t            \"rate\": movie.get(\"vote_average\", \"N/A\")\n\t        }\n\t    }\n\t    instances.append(instance)\n\t\n\t# Assign the instances to the Flex Repeater\n\tflex_repeater.props.instances \u003d instances\n\t\t\t"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}
