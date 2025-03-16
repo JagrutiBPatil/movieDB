@@ -37,14 +37,12 @@
         "meta": {
           "name": "FlexContainer"
         },
-        "position": {
-          "basis": "200px"
-        },
         "props": {
           "direction": "column",
           "justify": "space-around",
           "style": {
-            "classes": "mheader1"
+            "classes": "mheader1",
+            "overflow": "hidden"
           }
         },
         "type": "ia.container.flex"
@@ -56,7 +54,7 @@
               "name": "Label"
             },
             "position": {
-              "basis": "90px"
+              "grow": 1
             },
             "props": {
               "style": {
@@ -71,7 +69,7 @@
               "name": "Label_0"
             },
             "position": {
-              "basis": "90px"
+              "grow": 1
             },
             "props": {
               "style": {
@@ -86,7 +84,7 @@
               "name": "Label_1"
             },
             "position": {
-              "basis": "90px"
+              "grow": 1
             },
             "props": {
               "style": {
@@ -101,7 +99,8 @@
               "name": "TextField"
             },
             "position": {
-              "basis": ""
+              "basis": "",
+              "grow": 1
             },
             "props": {
               "placeholder": "Movie Name",

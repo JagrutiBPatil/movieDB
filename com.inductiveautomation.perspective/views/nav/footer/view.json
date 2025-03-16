@@ -1,0 +1,63 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 39
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "#\tself.session.custom.pages \u003d 1\n\tif self.session.custom.pages !\u003d 1:\n\t\t\t# API URL and Headers\n\t\tself.session.custom.pages -\u003d 1\n\t\turl \u003d \"https://api.themoviedb.org/3/movie/popular?language\u003den-US\u0026page\u003d\" + str(self.session.custom.pages)\n\t\theaders \u003d {\n\t\t    \"accept\": \"application/json\",\n\t\t    \"Authorization\": \"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTcyMTU2ZDQ3YjllM2U0M2RhMjA0MDRhMDQwYzNhOCIsIm5iZiI6MTczNjIyMzM0My44MjksInN1YiI6IjY3N2NhYTZmZDEwMmU3NzZmNTc0ODhiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nwAHnyYb8Ej1UCswTkltuNKZsCWWeknfHz_6Y0oi2es\"\n\t\t}\n\t\t\n\t\t# Create an HTTP client\n\t\thttp_client \u003d system.net.httpClient()\n\t\tresponse \u003d http_client.get(url, headers\u003dheaders)\n\t\t\n\t\t# Decode the JSON response\n\t\tresult \u003d system.util.jsonDecode(response.getText())\n\t\tmovies \u003d result.get(\"results\", [])\n\t\t\n\t\t# Get reference to the Flex Repeater\n\t\tflex_repeater \u003d self.getChild(\"FlexRepeater\")\n\t\t\n\t\t# Create instances list dynamically\n\t\tinstances \u003d []\n\t\tfor movie in movies:\n\t\t    instance \u003d {\n\t\t        \"viewPath\": \"New Folder/card3\",  # The path to your embedded view\n\t\t        \"params\": {\n\t\t            \"title\": movie.get(\"title\", \"Unknown Title\"),\n\t\t            \"imgPath\": \"https://image.tmdb.org/t/p/w500/\" + movie.get(\"poster_path\", \"\"),\n\t\t            \"rate\": movie.get(\"vote_average\", \"N/A\")\n\t\t        }\n\t\t    }\n\t\t    instances.append(instance)\n\t\t\n\t\t# Assign the instances to the Flex Repeater\n\t\tself.session.custom.instances \u003d instances\n\telse:\n\t\tpass\n\t\t\t"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "path": "material/keyboard_arrow_left"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "#\tself.session.custom.pages \u003d 1\n\tif self.session.custom.pages !\u003d 9999:\n\t\t\t# API URL and Headers\n\t\tself.session.custom.pages +\u003d 1\n\t\turl \u003d \"https://api.themoviedb.org/3/movie/popular?language\u003den-US\u0026page\u003d\" + str(self.session.custom.pages)\n\t\theaders \u003d {\n\t\t    \"accept\": \"application/json\",\n\t\t    \"Authorization\": \"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTcyMTU2ZDQ3YjllM2U0M2RhMjA0MDRhMDQwYzNhOCIsIm5iZiI6MTczNjIyMzM0My44MjksInN1YiI6IjY3N2NhYTZmZDEwMmU3NzZmNTc0ODhiYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nwAHnyYb8Ej1UCswTkltuNKZsCWWeknfHz_6Y0oi2es\"\n\t\t}\n\t\t\n\t\t# Create an HTTP client\n\t\thttp_client \u003d system.net.httpClient()\n\t\tresponse \u003d http_client.get(url, headers\u003dheaders)\n\t\t\n\t\t# Decode the JSON response\n\t\tresult \u003d system.util.jsonDecode(response.getText())\n\t\tmovies \u003d result.get(\"results\", [])\n\t\t\n\t\t# Get reference to the Flex Repeater\n\t\tflex_repeater \u003d self.getChild(\"FlexRepeater\")\n\t\t\n\t\t# Create instances list dynamically\n\t\tinstances \u003d []\n\t\tfor movie in movies:\n\t\t    instance \u003d {\n\t\t        \"viewPath\": \"New Folder/card3\",  # The path to your embedded view\n\t\t        \"params\": {\n\t\t            \"title\": movie.get(\"title\", \"Unknown Title\"),\n\t\t            \"imgPath\": \"https://image.tmdb.org/t/p/w500/\" + movie.get(\"poster_path\", \"\"),\n\t\t            \"rate\": movie.get(\"vote_average\", \"N/A\")\n\t\t        }\n\t\t    }\n\t\t    instances.append(instance)\n\t\t\n\t\t# Assign the instances to the Flex Repeater\n\t\tself.session.custom.instances \u003d instances\n\telse:\n\t\tpass\n\t\t\t"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon_0"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "path": "material/keyboard_arrow_right"
+        },
+        "type": "ia.display.icon"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

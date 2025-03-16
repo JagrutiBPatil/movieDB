@@ -1,61 +1,67 @@
-/* Direct stylesheet authoring is an advanced feature. Knowledge of CSS required.*/
+*{
+	font-family: poppins;
+  	font-size: 16px;
+}
+.psc-mheader1{
+  margin-left: 100px;
+  background-color: transparent;
+  padding : 10px 12px;
 
-:root {
-	--nav-open-width: 300px;
-	--nav-closed-width: 50px;
-	--nav-width: 0px;
-	--topbar-height: 50px;
-	--nav-link-height: 40px;
-
-	--nav--bgColor: var(--neutral-10);
-	--nav--color: var(--label);
-	--nav-section-open--bgColor: var(--neutral-30);
-	--nav-link-active--bgColor: var(--callToAction--active);
-	--nav-link-active--color: var(--white);
-	--nav-link-hover--bgColor: var(--callToAction--hover);
-	--nav-link-hover--color: var(--nav-link-active--color);
-	--nav-button--bgColor: transparent;
-	--nav-button--color: var(--white);
-	--topbar--bgColor: #2b2a2a;
-	--topbar--color: var(--white);
-	--nav-padding-width: 5px;
-
-	--breakpoint-small: 450;
-	--breakpoint-medium: 680;
-	--nav-link-hover-test: var(--white);
-	--nav-link-hover-test1: var(--black);
 }
 
-/*.psc-N1 {*/*/
-/*	height: var(--nav-link-height);*/*/
-/*	border-radius: var(--borderRadius);*/*/
-/*	gap: 5px;*/*/
-/*}*/
-
-.psc-N1 .ia_labelComponent,
-.psc-N1>svg:nth-child(3) {
-	opacity: 0;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	transition: all 0.1s ease-in-out;
+.psc-mheader1 span {
+  color: whitesmoke; 
+  font-weight: bold; 
+  font-size: 20px;
+  text-align: center;
 }
 
-.psc-N1:hover,
-.psc-N1.psc-selected:hover {
-	color: black;
-	background-color: white;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
+.psc-ml{
+  margin: 5px;
+  width: auto;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 400;
+  padding : 10px 10px;
 }
 
-.psc-N1.psc-selected {
-	background-color: var(--nav-link-active--bgColor);
-	color: var(--nav-link-active--color);
-	transition: all 0.2s ease-in-out;
+.psc-mt{
+  margin: 10px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+  padding : 5px;
 }
 
-.psc-nav-section {
-	max-height: var(--nav-link-height);
-	gap: 5px;
+.psc-mb{
+  margin: 10px 200px 10px 10px;
+  background-color: #3C3D37;
+  color: white;
+  height: auto;
+
+}
+
+.psc-flexElement{
+  padding: 20px;
+}
+
+.psc-imgflex{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: bottom;
+  padding-left : 2px;
+  border-radius: 10px;
+}
+
+.psc-imgflex:hover{
+	width: 100%;
+  	height: 350px;
+  	object-fit: cover;
+  	object-position: bottom;
+  	padding-left : 2px;
+  	border-radius: 10px;
+  	transform: scale(0.9);
 }

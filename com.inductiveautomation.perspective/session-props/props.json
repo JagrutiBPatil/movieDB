@@ -1,5 +1,169 @@
 {
-  "custom": {},
+  "custom": {
+    "instances": [
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//7iMBZzVZtG0oBug4TfqDb9ZxAOa.jpg",
+          "rate": 7.8,
+          "title": "The Gorge"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//qh8m8Udz0sCa5gy9VaqfHPh0yPM.jpg",
+          "rate": 7.066,
+          "title": "Anora"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+          "rate": 7.167,
+          "title": "Moana 2"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+          "rate": 7.7,
+          "title": "Sonic the Hedgehog 3"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg",
+          "rate": 6.1,
+          "title": "Flight Risk"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+          "rate": 6.2,
+          "title": "Captain America: Brave New World"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//edQwd95BzHY2XaWAoUgS50A4DHT.jpg",
+          "rate": 7.4,
+          "title": "Amaran"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//p5i1yyQW6OpLfB59w7ZkX5lvBqD.jpg",
+          "rate": 6.959,
+          "title": "Le Clitoris"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//edKpE9B5qN3e559OuMCLZdW1iBZ.jpg",
+          "rate": 7.017,
+          "title": "Mickey 17"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//lurEK87kukWNaHd0zYnsi3yzJrs.jpg",
+          "rate": 7.5,
+          "title": "Mufasa: The Lion King"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//dFWj2rOGsqSIX1PHFghbCBgpMnk.jpg",
+          "rate": 8.1,
+          "title": "Henry Danger: The Movie"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg",
+          "rate": 7,
+          "title": "Companion"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//xVS9XiO9upp2SnWx6KpBYb79hLR.jpg",
+          "rate": 7,
+          "title": "Panda Plan"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//vGXptEdgZIhPg3cGlc7e8sNPC2e.jpg",
+          "rate": 6.798,
+          "title": "Venom: The Last Dance"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//1GvBhRxY6MELDfxFrete6BNhBB5.jpg",
+          "rate": 6.7,
+          "title": "Kraven the Hunter"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+          "rate": 6.8,
+          "title": "Gladiator II"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//imKSymKBK7o73sajciEmndJoVkR.jpg",
+          "rate": 8.3,
+          "title": "Flow"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//g5PqsFFrayyRL1Ldgib2lMYuJXg.jpg",
+          "rate": 6.858,
+          "title": "Demon City"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//r6vVnsWyESNpiamrfBvnxXYcWlZ.jpg",
+          "rate": 8.4,
+          "title": "The X-Treme Riders"
+        },
+        "viewPath": "New Folder/card3"
+      },
+      {
+        "params": {
+          "imgPath": "https://image.tmdb.org/t/p/w500//lWh5OlerPR1c1cfn1ZLq0lpqFds.jpg",
+          "rate": 7.8,
+          "title": "Memoir of a Snail"
+        },
+        "viewPath": "New Folder/card3"
+      }
+    ],
+    "pages": 2
+  },
   "propConfig": {
     "props.auth": {
       "access": "PRIVATE",
@@ -51,10 +215,10 @@
     }
   },
   "props": {
-    "address": "127.0.0.1",
+    "address": "[0:0:0:0:0:0:0:1]",
     "device": {},
     "geolocation": {},
-    "locale": "en-IN",
+    "locale": "en-US",
     "theme": "myTheme",
     "timeZoneId": "Asia/Calcutta"
   }

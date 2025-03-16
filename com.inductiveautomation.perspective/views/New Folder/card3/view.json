@@ -15,8 +15,8 @@
   },
   "props": {
     "defaultSize": {
-      "height": 289,
-      "width": 229
+      "height": 345,
+      "width": 279
     }
   },
   "root": {
@@ -67,6 +67,11 @@
             }
           }
         },
+        "props": {
+          "style": {
+            "margin-left": "5px"
+          }
+        },
         "type": "ia.display.label"
       },
       {
@@ -85,6 +90,11 @@
               },
               "type": "property"
             }
+          }
+        },
+        "props": {
+          "style": {
+            "margin-left": "5px"
           }
         },
         "type": "ia.display.label"
